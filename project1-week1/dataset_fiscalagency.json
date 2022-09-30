@@ -8,13 +8,13 @@
             "FirstName": "Maria",
             "LastName": "Rossi",
             "Cod_Fiscale": "MRARSS90P29H501U",
-            "Address": {
+            "indirizzo": {
                 "citta": "Roma",
                 "provincia": "RM",
                 "cap": "00146",
                 "numero": "33",
                 "tipo": "Piazza",
-                "nome": "Navona"
+                "nome_zona": "Navona"
             }
         },
             "Reddito": {
@@ -35,13 +35,13 @@
         "FirstName": "Francesco",
         "LastName": "Bianchi",
         "Cod_Fiscale": "FHHGMS459TOVK595",
-        "Address": {
+        "indirizzo": {
             "citta": "Salerno",
             "provincia": "SA",
             "cap": "29300",
             "numero": "33",
             "tipo": "Piazza",
-            "nome": "Garibaldi"
+            "nome_zona": "Garibaldi"
         }
     },
         "Reddito": {
@@ -63,13 +63,13 @@
         "FirstName": "Giorgio",
         "LastName": "Rossi",
         "Cod_Fiscale": "GHCMET56970FKB95",
-        "Address": {
+        "indirizzo": {
             "citta": "Roma",
             "provincia": "RM",
             "cap": "00146",
             "numero": "33",
             "tipo": "Piazza",
-            "nome": "Navona"
+            "nome_zona": "Navona"
         }
     },
         "Reddito": {
@@ -91,13 +91,13 @@
         "FirstName": "Mario",
         "LastName": "Giordano",
         "Cod_Fiscale": "MIG495IFK49FKK39FK",
-        "Address": {
+        "indirizzo": {
             "citta": "Milano",
             "provincia": "MI",
             "cap": "00013",
             "numero": "33",
             "tipo": "Piazza",
-            "nome": "Sant'Ambrogio"
+            "nome_zona": "Sant'Ambrogio"
         }
     },
         "Reddito": {
@@ -119,13 +119,13 @@
         "FirstName": "Giuseppe",
         "LastName": "Novellino",
         "Cod_Fiscale": "GFJNEIT589TVK9959M",
-        "Address": {
+        "indirizzo": {
             "citta": "Napoli",
             "provincia": "NA",
             "cap": "00146",
             "numero": "33",
             "tipo": "Piazza",
-            "nome": "Garibaldi"
+            "nome_zona": "Garibaldi"
         }
     },
         "Reddito": {
@@ -147,13 +147,13 @@
         "FirstName": "Giorgio",
         "LastName": "Neri",
         "Cod_Fiscale": "GJVNBJ58RFJV85KFH",
-        "Address": {
+        "indirizzo": {
             "citta": "Firenze",
             "provincia": "FI",
             "cap": "2406",
             "numero": "33",
             "tipo": "Via",
-            "nome": "Dante"
+            "nome_zona": "Dante"
         }
     },
         "Reddito": {
@@ -175,13 +175,13 @@
         "FirstName": "Marina",
         "LastName": "Scarpato",
         "Cod_Fiscale": "MJDMNE465FNV4IVCF",
-        "Address": {
+        "indirizzo": {
             "citta": "Torino",
             "provincia": "TO",
             "cap": "10026",
             "numero": "3",
             "tipo": "Piazza",
-            "nome": "Cavour"
+            "nome_zona": "Cavour"
         }
     },
         "Reddito": {
@@ -203,13 +203,13 @@
         "FirstName": "Antonio",
         "LastName": "Sodano",
         "Cod_Fiscale": "ANTSD6IKCVJGK4ODL",
-        "Address": {
+        "indirizzo": {
             "citta": "Chieri",
             "provincia": "TO",
             "cap": "012003",
             "numero": "33",
             "tipo": "Corso",
-            "nome": "Mazzini"
+            "nome_zona": "Mazzini"
         }
     },
         "Reddito": {
@@ -231,13 +231,13 @@
         "FirstName": "Giovanna",
         "LastName": "Michelini",
         "Cod_Fiscale": "GGFMMD48FN39495KF",
-        "Address": {
+        "indirizzo": {
             "citta": "Roma",
             "provincia": "RM",
             "cap": "00142",
             "numero": "33",
             "tipo": "Via",
-            "nome": "Angelini"
+            "nome_zona": "Angelini"
         }
     },
         "Reddito": {
@@ -259,13 +259,13 @@
         "FirstName": "Giulia",
         "LastName": "Rossi",
         "Cod_Fiscale": "GFVMMD18FN3195AF",
-        "Address": {
+        "indirizzo": {
             "citta": "Roma",
             "provincia": "RM",
             "cap": "00133",
             "numero": "33",
             "tipo": "Via",
-            "nome": "Giolitti"
+            "nome_zona": "Giolitti"
         }
     },
         "Reddito": {
