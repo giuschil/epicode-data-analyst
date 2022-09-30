@@ -1,10 +1,13 @@
 {
-    "Contribuente1": {
+    "informazioni":"dati dei contribuenti richiesti dalla banca",
+    "lista_dati_contribuenti_":[
+{
+"Contribuente1": {
         "Anagrafica": {
-            "codice": 12030,
-            "FirstName": "Giorgio",
+            "codice": 551551,
+            "FirstName": "Maria",
             "LastName": "Rossi",
-            "Cod_Fiscale": "1234567890",
+            "Cod_Fiscale": "MRARSS90P29H501U",
             "Address": {
                 "citta": "Roma",
                 "provincia": "RM",
@@ -22,368 +25,262 @@
                     "anno2021":23190,
                     "anno2022":25000
                 },
-                "reddito_autonomo": 0,
-                "reddito_altri": 0,
-                "Famiglia": {
-                    "citta": "Roma",
-                    "provincia": "RM",
-                    "cap": "00146",
-                    "numero": "33",
-                    "tipo": "Piazza",
-                    "nome": "Navona"
-                    }
-            }
-    },
-    "Contribuente2": {
-        "Anagrafica": {
-            "codice": 12030,
-            "FirstName": "Giorgio",
-            "LastName": "Rossi",
-            "Cod_Fiscale": "1234567890",
-            "Address": {
-                "citta": "Roma",
-                "provincia": "RM",
-                "cap": "00146",
-                "numero": "33",
-                "tipo": "Piazza",
-                "nome": "Navona"
-            }
-        },
-            "Reddito": {
-                "reddito_dipendente": {
-                    "anno2018":12030,
-                    "anno2019":12342,
-                    "anno2020":29300,
-                    "anno2021":23190,
-                    "anno2022":25000
-                },
-                "reddito_autonomo": 0,
-                "reddito_altri": 0,
-                "Famiglia": {
-                    "citta": "Roma",
-                    "provincia": "RM",
-                    "cap": "00146",
-                    "numero": "33",
-                    "tipo": "Piazza",
-                    "nome": "Navona"
-                    }
-            }
-    },
-    "Contribuente3": {
-        "Anagrafica": {
-            "codice": 12030,
-            "FirstName": "Giorgio",
-            "LastName": "Rossi",
-            "Cod_Fiscale": "1234567890",
-            "Address": {
-                "citta": "Roma",
-                "provincia": "RM",
-                "cap": "00146",
-                "numero": "33",
-                "tipo": "Piazza",
-                "nome": "Navona"
-            }
-        },
-            "Reddito": {
-                "reddito_dipendente": {
-                    "anno2018":12030,
-                    "anno2019":12342,
-                    "anno2020":29300,
-                    "anno2021":23190,
-                    "anno2022":25000
-                },
-                "reddito_autonomo": 0,
-                "reddito_altri": 0,
-                "Famiglia": {
-                    "citta": "Roma",
-                    "provincia": "RM",
-                    "cap": "00146",
-                    "numero": "33",
-                    "tipo": "Piazza",
-                    "nome": "Navona"
-                    }
-            }
-    },
-    "Contribuente4": {
-        "Anagrafica": {
-            "codice": 12030,
-            "FirstName": "Giorgio",
-            "LastName": "Rossi",
-            "Cod_Fiscale": "1234567890",
-            "Address": {
-                "citta": "Roma",
-                "provincia": "RM",
-                "cap": "00146",
-                "numero": "33",
-                "tipo": "Piazza",
-                "nome": "Navona"
-            }
-        },
-            "Reddito": {
-                "reddito_dipendente": {
-                    "anno2018":12030,
-                    "anno2019":12342,
-                    "anno2020":29300,
-                    "anno2021":23190,
-                    "anno2022":25000
-                },
-                "reddito_autonomo": 0,
-                "reddito_altri": 0,
-                "Famiglia": {
-                    "citta": "Roma",
-                    "provincia": "RM",
-                    "cap": "00146",
-                    "numero": "33",
-                    "tipo": "Piazza",
-                    "nome": "Navona"
-                    }
-            }
-    },
-    "Contribuente5": {
-        "Anagrafica": {
-            "codice": 12030,
-            "FirstName": "Giorgio",
-            "LastName": "Rossi",
-            "Cod_Fiscale": "1234567890",
-            "Address": {
-                "citta": "Roma",
-                "provincia": "RM",
-                "cap": "00146",
-                "numero": "33",
-                "tipo": "Piazza",
-                "nome": "Navona"
-            }
-        },
-            "Reddito": {
-                "reddito_dipendente": {
-                    "anno2018":12030,
-                    "anno2019":12342,
-                    "anno2020":29300,
-                    "anno2021":23190,
-                    "anno2022":25000
-                },
-                "reddito_autonomo": 0,
-                "reddito_altri": 0,
-                "Famiglia": {
-                    "citta": "Roma",
-                    "provincia": "RM",
-                    "cap": "00146",
-                    "numero": "33",
-                    "tipo": "Piazza",
-                    "nome": "Navona"
-                    }
-            }
-    },
-    "Contribuente6": {
-        "Anagrafica": {
-            "codice": 12030,
-            "FirstName": "Giorgio",
-            "LastName": "Rossi",
-            "Cod_Fiscale": "1234567890",
-            "Address": {
-                "citta": "Roma",
-                "provincia": "RM",
-                "cap": "00146",
-                "numero": "33",
-                "tipo": "Piazza",
-                "nome": "Navona"
-            }
-        },
-            "Reddito": {
-                "reddito_dipendente": {
-                    "anno2018":12030,
-                    "anno2019":12342,
-                    "anno2020":29300,
-                    "anno2021":23190,
-                    "anno2022":25000
-                },
-                "reddito_autonomo": 0,
-                "reddito_altri": 0,
-                "Famiglia": {
-                    "citta": "Roma",
-                    "provincia": "RM",
-                    "cap": "00146",
-                    "numero": "33",
-                    "tipo": "Piazza",
-                    "nome": "Navona"
-                    }
-            }
-    },
-    "Contribuente7": {
-        "Anagrafica": {
-            "codice": 12030,
-            "FirstName": "Giorgio",
-            "LastName": "Rossi",
-            "Cod_Fiscale": "1234567890",
-            "Address": {
-                "citta": "Roma",
-                "provincia": "RM",
-                "cap": "00146",
-                "numero": "33",
-                "tipo": "Piazza",
-                "nome": "Navona"
-            }
-        },
-            "Reddito": {
-                "reddito_dipendente": {
-                    "anno2018":12030,
-                    "anno2019":12342,
-                    "anno2020":29300,
-                    "anno2021":23190,
-                    "anno2022":25000
-                },
-                "reddito_autonomo": 0,
-                "reddito_altri": 0,
-                "Famiglia": {
-                    "citta": "Roma",
-                    "provincia": "RM",
-                    "cap": "00146",
-                    "numero": "33",
-                    "tipo": "Piazza",
-                    "nome": "Navona"
-                    }
-            }
-    },
-    "Contribuente8": {
-        "Anagrafica": {
-            "codice": 12030,
-            "FirstName": "Giorgio",
-            "LastName": "Rossi",
-            "Cod_Fiscale": "1234567890",
-            "Address": {
-                "citta": "Roma",
-                "provincia": "RM",
-                "cap": "00146",
-                "numero": "33",
-                "tipo": "Piazza",
-                "nome": "Navona"
-            }
-        },
-            "Reddito": {
-                "reddito_dipendente": {
-                    "anno2018":12030,
-                    "anno2019":12342,
-                    "anno2020":29300,
-                    "anno2021":23190,
-                    "anno2022":25000
-                },
-                "reddito_autonomo": 0,
-                "reddito_altri": 0,
-                "Famiglia": {
-                    "citta": "Roma",
-                    "provincia": "RM",
-                    "cap": "00146",
-                    "numero": "33",
-                    "tipo": "Piazza",
-                    "nome": "Navona"
-                    }
-            }
-    },
-    "Contribuente9": {
-        "Anagrafica": {
-            "codice": 12030,
-            "FirstName": "Giorgio",
-            "LastName": "Rossi",
-            "Cod_Fiscale": "1234567890",
-            "Address": {
-                "citta": "Roma",
-                "provincia": "RM",
-                "cap": "00146",
-                "numero": "33",
-                "tipo": "Piazza",
-                "nome": "Navona"
-            }
-        },
-            "Reddito": {
-                "reddito_dipendente": {
-                    "anno2018":12030,
-                    "anno2019":12342,
-                    "anno2020":29300,
-                    "anno2021":23190,
-                    "anno2022":25000
-                },
-                "reddito_autonomo": 0,
-                "reddito_altri": 0,
-                "Famiglia": {
-                    "citta": "Roma",
-                    "provincia": "RM",
-                    "cap": "00146",
-                    "numero": "33",
-                    "tipo": "Piazza",
-                    "nome": "Navona"
-                    }
-            }
-    },
-    "Contribuente10": {
-        "Anagrafica": {
-            "codice": 12030,
-            "FirstName": "Giorgio",
-            "LastName": "Rossi",
-            "Cod_Fiscale": "1234567890",
-            "Address": {
-                "citta": "Roma",
-                "provincia": "RM",
-                "cap": "00146",
-                "numero": "33",
-                "tipo": "Piazza",
-                "nome": "Navona"
-            }
-        },
-            "Reddito": {
-                "reddito_dipendente": {
-                    "anno2018":12030,
-                    "anno2019":12342,
-                    "anno2020":29300,
-                    "anno2021":23190,
-                    "anno2022":25000
-                },
-                "reddito_autonomo": 0,
-                "reddito_altri": 0,
-                "Famiglia": {
-                    "citta": "Roma",
-                    "provincia": "RM",
-                    "cap": "00146",
-                    "numero": "33",
-                    "tipo": "Piazza",
-                    "nome": "Navona"
-                    }
-            }
-    },
-    "Contribuente11": {
-        "Anagrafica": {
-            "codice": 12030,
-            "FirstName": "Giorgio",
-            "LastName": "Rossi",
-            "Cod_Fiscale": "1234567890",
-            "Address": {
-                "citta": "Roma",
-                "provincia": "RM",
-                "cap": "00146",
-                "numero": "33",
-                "tipo": "Piazza",
-                "nome": "Navona"
-            }
-        },
-            "Reddito": {
-                "reddito_dipendente": {
-                    "anno2018":12030,
-                    "anno2019":12342,
-                    "anno2020":29300,
-                    "anno2021":23190,
-                    "anno2022":25000
-                },
-                "reddito_autonomo": 0,
-                "reddito_altri": 0,
-                "Famiglia": {
-                    "citta": "Roma",
-                    "provincia": "RM",
-                    "cap": "00146",
-                    "numero": "33",
-                    "tipo": "Piazza",
-                    "nome": "Navona"
-                    }
-            }
+                "reddito_altri": ["terreni","azioni","obbligazioni"],
+                "persone_a_carico":1
     }
+},
+"Contribuente2": {
+    "Anagrafica": {
+        "codice": 679272,
+        "FirstName": "Francesco",
+        "LastName": "Bianchi",
+        "Cod_Fiscale": "FHHGMS459TOVK595",
+        "Address": {
+            "citta": "Salerno",
+            "provincia": "SA",
+            "cap": "29300",
+            "numero": "33",
+            "tipo": "Piazza",
+            "nome": "Garibaldi"
+        }
+    },
+        "Reddito": {
+            "reddito_dipendente": {
+                "anno2018":11160,
+                "anno2019":1206,
+                "anno2020":28858,
+                "anno2021":7104,
+                "anno2022":17251
+            },
+            "reddito_altri": [],
+            "persone_a_carico":1
 }
 
+},
+"Contribuente3": {
+    "Anagrafica": {
+        "codice": 824141,
+        "FirstName": "Giorgio",
+        "LastName": "Rossi",
+        "Cod_Fiscale": "GHCMET56970FKB95",
+        "Address": {
+            "citta": "Roma",
+            "provincia": "RM",
+            "cap": "00146",
+            "numero": "33",
+            "tipo": "Piazza",
+            "nome": "Navona"
+        }
+    },
+        "Reddito": {
+            "reddito_dipendente": {
+                "anno2018":1030,
+                "anno2019":342,
+                "anno2020":2300,
+                "anno2021":3190,
+                "anno2022":25000
+            },
+            "reddito_altri": ["azioni","obbligazioni"],
+            "persone_a_carico":2
+}
 
+},
+"Contribuente4": {
+    "Anagrafica": {
+        "codice": 210690,
+        "FirstName": "Mario",
+        "LastName": "Giordano",
+        "Cod_Fiscale": "MIG495IFK49FKK39FK",
+        "Address": {
+            "citta": "Milano",
+            "provincia": "MI",
+            "cap": "00013",
+            "numero": "33",
+            "tipo": "Piazza",
+            "nome": "Sant'Ambrogio"
+        }
+    },
+        "Reddito": {
+            "reddito_dipendente": {
+                "anno2018":120300,
+                "anno2019":123420,
+                "anno2020":293000,
+                "anno2021":231900,
+                "anno2022":250000
+            },
+            "reddito_altri": ["azioni"],
+            "persone_a_carico":0
+}
+
+},
+"Contribuente5": {
+    "Anagrafica": {
+        "codice": 351109,
+        "FirstName": "Giuseppe",
+        "LastName": "Novellino",
+        "Cod_Fiscale": "GFJNEIT589TVK9959M",
+        "Address": {
+            "citta": "Napoli",
+            "provincia": "NA",
+            "cap": "00146",
+            "numero": "33",
+            "tipo": "Piazza",
+            "nome": "Garibaldi"
+        }
+    },
+        "Reddito": {
+            "reddito_dipendente": {
+                "anno2018":2030,
+                "anno2019":13342,
+                "anno2020":19300,
+                "anno2021":3190,
+                "anno2022":15000
+            },
+            "reddito_altri": ["immobili"],
+            "persone_a_carico":3
+}
+
+},
+"Contribuente6": {
+    "Anagrafica": {
+        "codice": 705125,
+        "FirstName": "Giorgio",
+        "LastName": "Neri",
+        "Cod_Fiscale": "GJVNBJ58RFJV85KFH",
+        "Address": {
+            "citta": "Firenze",
+            "provincia": "FI",
+            "cap": "2406",
+            "numero": "33",
+            "tipo": "Via",
+            "nome": "Dante"
+        }
+    },
+        "Reddito": {
+            "reddito_dipendente": {
+                "anno2018":19030,
+                "anno2019":14342,
+                "anno2020":21300,
+                "anno2021":13190,
+                "anno2022":35000
+            },
+            "reddito_altri": ["obbligazioni"],
+            "persone_a_carico":2
+}
+
+},
+"Contribuente7": {
+    "Anagrafica": {
+        "codice": 202230,
+        "FirstName": "Marina",
+        "LastName": "Scarpato",
+        "Cod_Fiscale": "MJDMNE465FNV4IVCF",
+        "Address": {
+            "citta": "Torino",
+            "provincia": "TO",
+            "cap": "10026",
+            "numero": "3",
+            "tipo": "Piazza",
+            "nome": "Cavour"
+        }
+    },
+        "Reddito": {
+            "reddito_dipendente": {
+                "anno2018":22030,
+                "anno2019":32342,
+                "anno2020":19300,
+                "anno2021":43190,
+                "anno2022":25000
+            },
+            "reddito_altri": ["immobili"],
+            "persone_a_carico":2
+}
+
+},
+"Contribuente8": {
+    "Anagrafica": {
+        "codice": 243887,
+        "FirstName": "Antonio",
+        "LastName": "Sodano",
+        "Cod_Fiscale": "ANTSD6IKCVJGK4ODL",
+        "Address": {
+            "citta": "Chieri",
+            "provincia": "TO",
+            "cap": "012003",
+            "numero": "33",
+            "tipo": "Corso",
+            "nome": "Mazzini"
+        }
+    },
+        "Reddito": {
+            "reddito_dipendente": {
+                "anno2018":12030,
+                "anno2019":12342,
+                "anno2020":29300,
+                "anno2021":23190,
+                "anno2022":25000
+            },
+            "reddito_altri": ["azioni"],
+            "persone_a_carico":1
+}
+
+},
+"Contribuente9": {
+    "Anagrafica": {
+        "codice": 863943,
+        "FirstName": "Giovanna",
+        "LastName": "Michelini",
+        "Cod_Fiscale": "GGFMMD48FN39495KF",
+        "Address": {
+            "citta": "Roma",
+            "provincia": "RM",
+            "cap": "00142",
+            "numero": "33",
+            "tipo": "Via",
+            "nome": "Angelini"
+        }
+    },
+        "Reddito": {
+            "reddito_dipendente": {
+                "anno2018":32030,
+                "anno2019":32342,
+                "anno2020":29300,
+                "anno2021":43190,
+                "anno2022":15000
+            },
+            "reddito_altri": ["immobili"],
+            "persone_a_carico":1
+}
+
+},
+"Contribuente10": {
+    "Anagrafica": {
+        "codice": 293217,
+        "FirstName": "Giulia",
+        "LastName": "Rossi",
+        "Cod_Fiscale": "GFVMMD18FN3195AF",
+        "Address": {
+            "citta": "Roma",
+            "provincia": "RM",
+            "cap": "00133",
+            "numero": "33",
+            "tipo": "Via",
+            "nome": "Giolitti"
+        }
+    },
+        "Reddito": {
+            "reddito_dipendente": {
+                "anno2018":2030,
+                "anno2019":2342,
+                "anno2020":9300,
+                "anno2021":3190,
+                "anno2022":15000
+            },
+            "reddito_altri": [],
+            "persone_a_carico":0
+}
+
+}
+}
+]
+}
