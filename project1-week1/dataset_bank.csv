@@ -1,11 +1,11 @@
 id,fiscal_code,banck_account_number,age,sex,personal_status,job,housing,saving_account,credit_amount,duration,purpose,decision
-1,MRARSS90P29H501U,843721,23,M,single,Insegnante,proprietà,<30000,25000,5,car,si
-2,FHHGMS459TOVK595,539889,61,F,single,Ingegnere,affitto,<10000,130000,10,house,no
-3,GHCMET56970FKB95,701740,65,F,single,Libero Professionista,affitto,<50000,25000,15,tv/media,no
-4,FIG495IFK49FKK39FK,777953,49,M,sposato,Operaio,proprietà,<30000,30000,5,car,si
-5,JFJVEIT589TVK9959M,377697,61,M,sposato,null,affitto,<1500,5000,10,phone,no
-6,FJVJBJ58RFJV85KFH,186652,28,M,sposato,Medico,affitto,<4000,35000,5,car,si
-7,GJKVNE465FNV4IVCF,277360,21,F,single,Studente,affitto,<2000,150000,3,house,no
-8,EIVNG6IKCVJGK4ODL,238013,33,M,divorziato,Avvocato,proprietà,<5000,250000,2,house,si
-9,HGFMMD48FN39495KF,891560,25,F,single,Operaio,proprietà,<3000,250000,5,house,no
-10,AFKELD21SN23495AF,248290,45,F,single,Insegnante,proprietà,<40000,250000,25,house,si
+1,MRARSS90P29H501U,843721,23,M,single,Insegnante,proprietà,30000,25000,5,car,yes
+2,FHHGMS459TOVK595,539889,61,F,single,Ingegnere,affitto,10000,130000,10,house,no
+3,GHCMET56970FKB95,701740,65,F,single,Libero Professionista,affitto,50000,25000,15,car,no
+4,FIG495IFK49FKK39FK,777953,49,M,sposato,Operaio,proprietà,30000,30000,5,car,yes
+5,JFJVEIT589TVK9959M,377697,61,M,sposato,null,affitto,1500,5000,10,phone,no
+6,FJVJBJ58RFJV85KFH,186652,28,M,sposato,Medico,affitto,4000,35000,5,car,yes
+7,GJKVNE465FNV4IVCF,277360,21,F,single,Studente,affitto,2000,150000,3,house,no
+8,EIVNG6IKCVJGK4ODL,238013,33,M,divorziato,Avvocato,proprietà,5000,250000,2,house,yes
+9,HGFMMD48FN39495KF,891560,25,F,single,Operaio,proprietà,3000,250000,5,house,no
+10,AFKELD21SN23495AF,248290,45,F,single,Insegnante,proprietà,40000,250000,25,house,yes
