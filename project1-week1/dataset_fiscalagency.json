@@ -5,8 +5,8 @@
 "Contribuente1": {
         "Anagrafica": {
             "codice": 551551,
-            "FirstName": "Maria",
-            "LastName": "Rossi",
+            "Nome": "Maria",
+            "Cognome": "Rossi",
             "Cod_Fiscale": "MRARSS90P29H501U",
             "indirizzo": {
                 "citta": "Roma",
@@ -32,8 +32,8 @@
 "Contribuente2": {
     "Anagrafica": {
         "codice": 679272,
-        "FirstName": "Francesco",
-        "LastName": "Bianchi",
+        "Nome": "Francesco",
+        "Cognome": "Bianchi",
         "Cod_Fiscale": "FHHGMS459TOVK595",
         "indirizzo": {
             "citta": "Salerno",
@@ -60,8 +60,8 @@
 "Contribuente3": {
     "Anagrafica": {
         "codice": 824141,
-        "FirstName": "Giorgio",
-        "LastName": "Rossi",
+        "Nome": "Giorgio",
+        "Cognome": "Rossi",
         "Cod_Fiscale": "GHCMET56970FKB95",
         "indirizzo": {
             "citta": "Roma",
@@ -88,8 +88,8 @@
 "Contribuente4": {
     "Anagrafica": {
         "codice": 210690,
-        "FirstName": "Mario",
-        "LastName": "Giordano",
+        "Nome": "Mario",
+        "Cognome": "Giordano",
         "Cod_Fiscale": "MIG495IFK49FKK39FK",
         "indirizzo": {
             "citta": "Milano",
@@ -116,8 +116,8 @@
 "Contribuente5": {
     "Anagrafica": {
         "codice": 351109,
-        "FirstName": "Giuseppe",
-        "LastName": "Novellino",
+        "Nome": "Giuseppe",
+        "Cognome": "Novellino",
         "Cod_Fiscale": "GFJNEIT589TVK9959M",
         "indirizzo": {
             "citta": "Napoli",
@@ -144,8 +144,8 @@
 "Contribuente6": {
     "Anagrafica": {
         "codice": 705125,
-        "FirstName": "Giorgio",
-        "LastName": "Neri",
+        "Nome": "Giorgio",
+        "Cognome": "Neri",
         "Cod_Fiscale": "GJVNBJ58RFJV85KFH",
         "indirizzo": {
             "citta": "Firenze",
@@ -172,8 +172,8 @@
 "Contribuente7": {
     "Anagrafica": {
         "codice": 202230,
-        "FirstName": "Marina",
-        "LastName": "Scarpato",
+        "Nome": "Marina",
+        "Cognome": "Scarpato",
         "Cod_Fiscale": "MJDMNE465FNV4IVCF",
         "indirizzo": {
             "citta": "Torino",
@@ -200,8 +200,8 @@
 "Contribuente8": {
     "Anagrafica": {
         "codice": 243887,
-        "FirstName": "Antonio",
-        "LastName": "Sodano",
+        "Nome": "Antonio",
+        "Cognome": "Sodano",
         "Cod_Fiscale": "ANTSD6IKCVJGK4ODL",
         "indirizzo": {
             "citta": "Chieri",
@@ -228,8 +228,8 @@
 "Contribuente9": {
     "Anagrafica": {
         "codice": 863943,
-        "FirstName": "Giovanna",
-        "LastName": "Michelini",
+        "Nome": "Giovanna",
+        "Cognome": "Michelini",
         "Cod_Fiscale": "GGFMMD48FN39495KF",
         "indirizzo": {
             "citta": "Roma",
@@ -256,8 +256,8 @@
 "Contribuente10": {
     "Anagrafica": {
         "codice": 293217,
-        "FirstName": "Giulia",
-        "LastName": "Rossi",
+        "Nome": "Giulia",
+        "Cognome": "Rossi",
         "Cod_Fiscale": "GFVMMD18FN3195AF",
         "indirizzo": {
             "citta": "Roma",
