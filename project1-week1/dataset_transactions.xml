@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Client Transactions-->
+<!-- Client transactions-->
 <bank_transactions>
-<transactions id= "100001">
+<transaction id= "100001">
     <purchase category="gasoline">
         <payment date="2022-09-25">
             <time>
@@ -20,8 +20,8 @@
             </location>
         </payment>
     </purchase>
-</transactions>
-<transactions id= "100002">
+</transaction>
+<transaction id= "100002">
     <purchase category="ecommerce">
         <payment date="2022-07-26">
             <time>
@@ -40,8 +40,8 @@
             </location>
         </payment>
     </purchase>
-</transactions>
-<transactions id= "100003">
+</transaction>
+<transaction id= "100003">
     <purchase category="ecommerce">
         <payment date="2022-07-30">
             <time>
@@ -60,8 +60,8 @@
             </location>
         </payment>
     </purchase>
-</transactions>
-<transactions id= "100004">
+</transaction>
+<transaction id= "100004">
     <purchase category="shopping">
         <payment date="2022-08-01">
             <time>
@@ -80,8 +80,8 @@
             </location>
         </payment>
     </purchase>
-</transactions>
-<transactions id= "100005">
+</transaction>
+<transaction id= "100005">
     <purchase category="send">
         <payment date='2022-08-15'>
             <time>
@@ -100,8 +100,8 @@
             </location>
         </payment>
     </purchase>
-</transactions>
-<transactions id= "100006">
+</transaction>
+<transaction id= "100006">
     <purchase category="bill">
         <payment date='2022-08-25'>
             <time>
@@ -120,8 +120,8 @@
             </location>
         </payment>
     </purchase>
-</transactions>
-<transactions id= "100007">
+</transaction>
+<transaction id= "100007">
     <purchase category="bill">
         <payment date="2022-09-05">
             <time>
@@ -140,8 +140,8 @@
             </location>
         </payment>
     </purchase>
-</transactions>
-<transactions id= "100008">
+</transaction>
+<transaction id= "100008">
     <purchase category="shopping">
         <payment date="2022-09-25">
             <time>
@@ -160,8 +160,8 @@
             </location>
         </payment>
     </purchase>
-</transactions>
-<transactions id= "100009">
+</transaction>
+<transaction id= "100009">
     <purchase category="ecommerce">
         <payment date="2022-09-25">
             <time>
@@ -170,7 +170,7 @@
                 <seconds>00</seconds>
             </time>
             <company>Alitalia</company>
-            <url />
+            <url>www.alitalia.it/payment/user=ajajajja48484</url>
             <title>Biglietto Aereo</title>
             <price>345.56</price>
             <currency>€</currency>
@@ -180,8 +180,8 @@
             </location>
         </payment>
     </purchase>
-</transactions>
-<transactions id= "100010">
+</transaction>
+<transaction id= "100010">
     <purchase category="shopping">
         <payment date="2022-09-30">
             <time>
@@ -200,8 +200,8 @@
             </location>
         </payment>
     </purchase>
-</transactions>
-<transactions id= "100011">
+</transaction>
+<transaction id= "100011">
     <purchase category="shopping">
         <payment date="2022-09-25">
             <time>
@@ -210,7 +210,7 @@
                 <seconds>00</seconds>
             </time>
             <company>Zara</company>
-            <url />
+            <url>wwww.zara.it/scarpe/payment=4858585</url>
             <title>Zara shopping</title>
             <price>45.56</price>
             <currency>€</currency>
@@ -220,5 +220,5 @@
             </location>
         </payment>
     </purchase>
-</transactions>
+</transaction>
 </bank_transactions>
