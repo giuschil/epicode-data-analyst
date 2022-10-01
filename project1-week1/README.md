@@ -44,3 +44,12 @@ Per la creazione del progetto di analisi per la banca Revolut il team Data & Tec
 - 2. Analisi Aggiuntive Proposte
 - 3. Possibili implementazioni future
 
+## Analisi e raccolta dei requisiti 
+Il modello di credit risk di Revolut attuale utilizzato dalla banca calcola in base ai soli dati in possesso ( età,sesso,disponibilità di denaro in conto corrente, se si è proprietari di immobile o in affitto, la professione che si svolge, la quantità di denaro richiesta, il tipo di aquisto che si vuole fare con il credito e la durata del credito) se concedere o meno il credito. 
+Per la creazione del progetto di analisi per la banca Revolut il team Data & Technology della società di consulenza Epicode Consulting ha raccolto i dati seguenti:
+
+| dataset        | formato      | dimensione     | link fonte    | descrizione |
+| ------------- |:-------------:| :-------------:|:-------------|:-------------|
+|dataset_bank.csv| CSV | 10 | https://api.revolut.com/bankdata/| Dataset della banca sui clienti che hanno richiesto un credito e risultato del credit score |
+| dataset_fiscalagency.json | JSON      |   10 | https://api.agenziaentrate.gov.it/portale/ | Dataset dell’agenzia delle entrate sui dieci clienti che hanno richiesto il credito |
+| dataset_transactions.xml |  XML      |    10 | https://api.stripe.com/bank/37475859 | Dataset creato da azienda di credito terza su tutti i pagamenti online e offline effettuati |
