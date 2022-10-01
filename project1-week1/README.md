@@ -182,35 +182,33 @@ Di seguito viene illustrato come verrà implementato il data lake per la banca. 
 
 
 ## Supporto alle decisioni aziendali
-- Analisi di business 
-- Analisi dell’andamento delle richieste di prestito dai clienti
-- Peak location
-- Quali Città hanno avuto più prenotazioni
-- Quali tipi di strutture sono state maggiormente prenotate
 
+Analisi di business 
+- 1. Analisi dell’andamento delle richieste di prestito dai clienti
 Target customers
-Quali tipologie di utente ha effettuato più prenotazioni
+- 2. Quali tipologie di utente ha effettuato più prenotazioni
 
 Campagne Marketing/Advertising
-Aumentare la leads generation tramite pubblicità e email marketing ai clienti che potrebbero voler richiedere del credito.  
+- 1. Aumentare la leads generation tramite pubblicità sui social ed email marketing  
 	
 ### Analisi predittiva 
-- Trend: Previsione sulle richieste dei prestiti
-- Periodo con piu’ alta richiesta di credito dagli utenti
-- Motivo per quale il credito è richiesto 
-- Analisi sul tipo di credito preferito dai clienti
-- Analisi sulla durata del credito preferito dai clienti
-- Target customers
-- Buyer persona analysis
-- Campagne Marketing/Advertising
-- Migliorare la lead generation creando campagne marketing targetizzate
+Analisi Trend
+- 1. Previsione sulle richieste dei prestiti
+- 2. Periodo con piu’ alta richiesta di credito dagli utenti
+- 3. Motivo per quale il credito è richiesto 
+- 4. Analisi sul tipo di credito preferito dai clienti
+- 5. Analisi sulla durata del credito preferito dai clienti
+Target customers
+- 1. Buyer persona analysis
+Campagne Marketing/Advertising
+- 1. Migliorare la lead generation creando campagne marketing targetizzate
 
 ### Storia/Infografica 
 - Infografica sul cliente tipo per le città più grandi.
 - Infografica sul sole24ore.it sulla quantità di denaro concessa a prestito dall’azienda
 - Infografica sul portale revolut.com sui dati di genere ed età dei clienti 
 
-###Analisi Aggiuntive Proposte
+### Analisi Aggiuntive Proposte
 Sono richieste le seguenti analisi:
 - Analisi statistica della concessione del credito ai clienti raggruppati per classe di età  (18-25, 25-34, 35-44, 45-60).
 - Analisi sul numero dei prestiti concessi
