@@ -2,6 +2,26 @@
 
 ## Raccolta e analisi dei requisiti per un progetto di analisi dati. Analisi, Valutazione del modello di credit scoring di Revolut Bank
 
+### Indice
+- Descrizione del caso di studio
+- 2. Storia
+- 3. Caso
+- Analisi e raccolta dei requisiti
+- 1. Requisiti per la Banca
+- 2. Requisiti per le Transazioni
+- 3. Requisiti per i dati dell’Agenzia delle entrate
+- 4. Team necessario Data & Technology
+- Glossario dei termini
+- 1. Tipologia di dati
+- 2. Dati Revolut Bank
+- 3. Dati transazioni-pagamenti online e offline
+- 4. Dati Agenzia delle entrate
+- 5. Implementazione
+- Supporto alle decisioni aziendali
+- 1. Storia/Infografica
+- 2. Analisi Aggiuntive Proposte
+- 3. Possibili implementazioni future
+
 
 ## Descrizione del caso di studio
 
@@ -29,25 +49,6 @@ Per la creazione del progetto di analisi per la banca Revolut il team Data & Tec
 * `3` Poter analizzare e predire il default rate dei clienti che ha già ottenuto il credito. 
 * `4` Predire quali e quando i clienti potrebbero aver necessità di credito per i loro acquisti e fornire i dati al team marketing per migliorare le leads performance
 
-### Indice
-- Descrizione del caso di studio
-- 2. Storia
-- 3. Caso
-- Analisi e raccolta dei requisiti
-- 1. Requisiti per la Banca
-- 2. Requisiti per le Transazioni
-- 3. Requisiti per i dati dell’Agenzia delle entrate
-- 4. Team necessario Data & Technology
-- Glossario dei termini
-- 1. Tipologia di dati
-- 2. Dati Revolut Bank
-- 3. Dati transazioni-pagamenti online e offline
-- 4. Dati Agenzia delle entrate
-- 5. Implementazione
-- Supporto alle decisioni aziendali
-- 1. Storia/Infografica
-- 2. Analisi Aggiuntive Proposte
-- 3. Possibili implementazioni future
 
 ## Analisi e raccolta dei requisiti 
 Il modello di credit risk di Revolut attuale utilizzato dalla banca calcola in base ai soli dati in possesso ( età,sesso,disponibilità di denaro in conto corrente, se si è proprietari di immobile o in affitto, la professione che si svolge, la quantità di denaro richiesta, il tipo di aquisto che si vuole fare con il credito e la durata del credito) se concedere o meno il credito. 
