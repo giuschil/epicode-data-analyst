@@ -165,9 +165,61 @@ Default Rate |Il default rate indica la probabilità di insolvenza del cliente|T
 ```
 ## CSV dataset preview
 
-```json
-id,fiscal_code,banck_account_number,age,sex,personal_status,job,housing,saving_account,credit_amount,duration,purpose,decision
-1,MRARSS90P29H501U,843721,23,M,single,Insegnante,proprietà,30000,25000,5,car,yes
-2,FHHGMS459TOVK595,539889,61,F,single,Ingegnere,affitto,10000,130000,10,house,no
-3,GHCMET56970FKB95,701740,65,F,single,Libero Professionista,affitto,50000,25000,15,car,no
-```
+
+|id| fiscal_code | banck_account_number|age|sex|personal_status|job|housing|saving_account|credit_amount|duration|purpose|decision|
+| ------------- |:-------------:| :-------------:|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|
+1|MRARSS90P29H501U|843721|23|M|single|Insegnante|proprietà|30000|25000|5|car|yes|
+2|FHHGMS459TOVK595|539889|61|F|single|Ingegnere|affitto|10000|130000|10|house|no|
+3|GHCMET56970FKB95|701740|65|F|single|Libero Professionista|affitto|50000|25000|15|car|no|
+
+## Implementazione
+Di seguito viene illustrato come verrà implementato il data lake per la banca. Nel disegno possiamo vedere come le diverse origini di dati vengono convogliate in un data lake. 
+
+![alt text](https://github.com/giuschil/epicode-data-analyst/blob/main/project1-week1/credito-schema-revolut.png)
+
+![alt text](https://github.com/giuschil/epicode-data-analyst/blob/main/project1-week1/schema-transaction-revolut.png)
+
+
+
+## Supporto alle decisioni aziendali
+- Analisi di business 
+- Analisi dell’andamento delle richieste di prestito dai clienti
+- Peak location
+- Quali Città hanno avuto più prenotazioni
+- Quali tipi di strutture sono state maggiormente prenotate
+
+Target customers
+Quali tipologie di utente ha effettuato più prenotazioni
+
+Campagne Marketing/Advertising
+Aumentare la leads generation tramite pubblicità e email marketing ai clienti che potrebbero voler richiedere del credito.  
+	
+### Analisi predittiva 
+- Trend: Previsione sulle richieste dei prestiti
+- Periodo con piu’ alta richiesta di credito dagli utenti
+- Motivo per quale il credito è richiesto 
+- Analisi sul tipo di credito preferito dai clienti
+- Analisi sulla durata del credito preferito dai clienti
+- Target customers
+- Buyer persona analysis
+- Campagne Marketing/Advertising
+- Migliorare la lead generation creando campagne marketing targetizzate
+
+### Storia/Infografica 
+- Infografica sul cliente tipo per le città più grandi.
+- Infografica sul sole24ore.it sulla quantità di denaro concessa a prestito dall’azienda
+- Infografica sul portale revolut.com sui dati di genere ed età dei clienti 
+
+###Analisi Aggiuntive Proposte
+Sono richieste le seguenti analisi:
+- Analisi statistica della concessione del credito ai clienti raggruppati per classe di età  (18-25, 25-34, 35-44, 45-60).
+- Analisi sul numero dei prestiti concessi
+- Analisi sulla quantità di credito concesso
+- Analisi sulla qualità del modello 
+
+### Possibili implementazioni future
+Anticipare la richiesta di credito da parte degli utenti tramite la creazione di modelli predittivi.
+Migliorare il modello per abbassare il default rate dei clienti
+
+
+
