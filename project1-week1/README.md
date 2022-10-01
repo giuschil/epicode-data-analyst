@@ -15,6 +15,11 @@ Predire quali e quando i clienti potrebbero aver necessità di credito per i lor
 
 
 Analisi e raccolta dei requisiti 
-Il modello di credit risk di Revolut attuale utilizzato dalla banca calcola in base ai soli dati in possesso ( età,sesso,disponibilità di denaro in conto corrente, se si è proprietari di immobile o in affitto, la professione che si svolge, la quantità di denaro richiesta, il tipo di aquisto che si vuole fare con il credito e la durata del credito) se concedere o meno il credito. 
+Il modello di credit risk di Revolut attuale utilizzato dalla banca calcola in base ai soli dati in possesso ( età,sesso,disponibilità di denaro 
+in conto corrente, se si è proprietari di immobile o in affitto, la professione che si svolge, la quantità di denaro richiesta, il tipo di aquisto che si vuole fare con il credito e la durata del credito) se concedere o meno il credito. 
 Per la creazione del progetto di analisi per la banca Revolut il team Data & Technology della società di consulenza Epicode Consulting ha raccolto i dati seguenti:
 
+* `1` - Migliorare il modello di credit scoring do Revolut Bank per migliorare l’efficacia con cui concede credito ai suoi clienti
+* `2` Poter analizzare e predire tramite dei modelli di ML quali dei suoi clienti potrebbe voler richiedere del credito. 
+* `3`Poter analizzare e predire il default rate dei clienti che ha già ottenuto il credito. 
+* `4`Predire quali e quando i clienti potrebbero aver necessità di credito per i loro acquisti e fornire i dati al team marketing per migliorare le leads performance
