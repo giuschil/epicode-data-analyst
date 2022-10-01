@@ -1,24 +1,25 @@
+
 {
-    "informazioni":"dati dei contribuenti richiesti dalla banca",
-    "lista_dati_contribuenti_":[
-{
-"Contribuente1": {
-        "Anagrafica": {
-            "codice": 551551,
-            "Nome": "Maria",
-            "Cognome": "Rossi",
-            "Cod_Fiscale": "MRARSS90P29H501U",
-            "indirizzo": {
+    "contribuenti": 
+    [
+        {
+            "codice_contribuente": 551551,
+            "nome": "Maria",
+            "cognome": "Rossi",
+            "cod_fiscale": "MRARSS90P29H501U",
+            "indirizzo": 
+            {
                 "citta": "Roma",
                 "provincia": "RM",
                 "cap": "00146",
                 "numero": "33",
                 "tipo": "Piazza",
                 "nome_zona": "Navona"
-            }
-        },
-            "Reddito": {
-                "reddito_dipendente": {
+            },
+            "reddito": 
+            {
+                "reddito_dipendente": 
+                {
                     "anno2018":12030,
                     "anno2019":12342,
                     "anno2020":29300,
@@ -26,261 +27,264 @@
                     "anno2022":25000
                 },
                 "reddito_altri": ["terreni","azioni","obbligazioni"],
-                "persone_a_carico":1
-    }
-},
-"Contribuente2": {
-    "Anagrafica": {
-        "codice": 679272,
-        "Nome": "Francesco",
-        "Cognome": "Bianchi",
-        "Cod_Fiscale": "FHHGMS459TOVK595",
-        "indirizzo": {
-            "citta": "Salerno",
-            "provincia": "SA",
-            "cap": "29300",
-            "numero": "33",
-            "tipo": "Piazza",
-            "nome_zona": "Garibaldi"
-        }
-    },
-        "Reddito": {
-            "reddito_dipendente": {
-                "anno2018":11160,
-                "anno2019":1206,
-                "anno2020":28858,
-                "anno2021":7104,
-                "anno2022":17251
+                "persone_a_carico":true
+            }
+        },
+        {
+            "codice_contribuente": 679272,
+            "nome": "Francesco",
+            "cognome": "Bianchi",
+            "cod_fiscale": "FHHGMS459TOVK595",
+            "indirizzo": 
+            {
+                "citta": "Salerno",
+                "provincia": "SA",
+                "cap": "29300",
+                "numero": "33",
+                "tipo": "Piazza",
+                "nome_zona": "Garibaldi"
             },
-            "reddito_altri": [],
-            "persone_a_carico":1
-}
-
-},
-"Contribuente3": {
-    "Anagrafica": {
-        "codice": 824141,
-        "Nome": "Giorgio",
-        "Cognome": "Rossi",
-        "Cod_Fiscale": "GHCMET56970FKB95",
-        "indirizzo": {
-            "citta": "Roma",
-            "provincia": "RM",
-            "cap": "00146",
-            "numero": "33",
-            "tipo": "Piazza",
-            "nome_zona": "Navona"
-        }
-    },
-        "Reddito": {
-            "reddito_dipendente": {
-                "anno2018":1030,
-                "anno2019":342,
-                "anno2020":2300,
-                "anno2021":3190,
-                "anno2022":25000
+                "reddito": 
+                {
+                    "reddito_dipendente": 
+                    {
+                        "anno2018":11160,
+                        "anno2019":1206,
+                        "anno2020":28858,
+                        "anno2021":7104,
+                        "anno2022":17251
+                    },
+                    "reddito_altri": [],
+                    "persone_a_carico":false
+                }
+    
+        },
+        {
+            "codice_contribuente": 824141,
+            "nome": "Giorgio",
+            "cognome": "Rossi",
+            "cod_fiscale": "GHCMET56970FKB95",
+            "indirizzo": 
+            {
+                "citta": "Roma",
+                "provincia": "RM",
+                "cap": "00146",
+                "numero": "33",
+                "tipo": "Piazza",
+                "nome_zona": "Navona"
             },
-            "reddito_altri": ["azioni","obbligazioni"],
-            "persone_a_carico":2
-}
-
-},
-"Contribuente4": {
-    "Anagrafica": {
-        "codice": 210690,
-        "Nome": "Mario",
-        "Cognome": "Giordano",
-        "Cod_Fiscale": "MIG495IFK49FKK39FK",
-        "indirizzo": {
-            "citta": "Milano",
-            "provincia": "MI",
-            "cap": "00013",
-            "numero": "33",
-            "tipo": "Piazza",
-            "nome_zona": "Sant'Ambrogio"
-        }
-    },
-        "Reddito": {
-            "reddito_dipendente": {
-                "anno2018":120300,
-                "anno2019":123420,
-                "anno2020":293000,
-                "anno2021":231900,
-                "anno2022":250000
+            "reddito": 
+            {
+                "reddito_dipendente": 
+                {
+                    "anno2018":1030,
+                    "anno2019":342,
+                    "anno2020":2300,
+                    "anno2021":3190,
+                    "anno2022":25000
+                },
+                "reddito_altri": ["azioni","obbligazioni"],
+                "persone_a_carico":false
+            }
+        },
+        {
+            "codice_contribuente": 210690,
+            "nome": "Mario",
+            "cognome": "Giordano",
+            "cod_fiscale": "MIG495IFK49FKK39FK",
+            "indirizzo": 
+            {
+                "citta": "Milano",
+                "provincia": "MI",
+                "cap": "00013",
+                "numero": "33",
+                "tipo": "Piazza",
+                "nome_zona": "Sant'Ambrogio"
             },
-            "reddito_altri": ["azioni"],
-            "persone_a_carico":0
-}
-
-},
-"Contribuente5": {
-    "Anagrafica": {
-        "codice": 351109,
-        "Nome": "Giuseppe",
-        "Cognome": "Novellino",
-        "Cod_Fiscale": "GFJNEIT589TVK9959M",
-        "indirizzo": {
-            "citta": "Napoli",
-            "provincia": "NA",
-            "cap": "00146",
-            "numero": "33",
-            "tipo": "Piazza",
-            "nome_zona": "Garibaldi"
-        }
-    },
-        "Reddito": {
-            "reddito_dipendente": {
-                "anno2018":2030,
-                "anno2019":13342,
-                "anno2020":19300,
-                "anno2021":3190,
-                "anno2022":15000
+            "reddito": 
+            {
+                "reddito_dipendente": 
+                {
+                    "anno2018":120300,
+                    "anno2019":123420,
+                    "anno2020":293000,
+                    "anno2021":231900,
+                    "anno2022":250000
+                },
+                "reddito_altri": ["azioni"],
+                "persone_a_carico":true
+            }
+        },
+        {
+            "codice_contribuente": 351109,
+            "nome": "Giuseppe",
+            "cognome": "Novellino",
+            "cod_fiscale": "GFJNEIT589TVK9959M",
+            "indirizzo": 
+            {
+                "citta": "Napoli",
+                "provincia": "NA",
+                "cap": "00146",
+                "numero": "33",
+                "tipo": "Piazza",
+                "nome_zona": "Garibaldi"
             },
-            "reddito_altri": ["immobili"],
-            "persone_a_carico":3
-}
-
-},
-"Contribuente6": {
-    "Anagrafica": {
-        "codice": 705124,
-        "Nome": "Giorgio",
-        "Cognome": "Neri",
-        "Cod_Fiscale": "GJVNBJ58RFJV85KFH",
-        "indirizzo": {
-            "citta": "Firenze",
-            "provincia": "FI",
-            "cap": "2406",
-            "numero": "33",
-            "tipo": "Via",
-            "nome_zona": "Dante"
-        }
-    },
-        "Reddito": {
-            "reddito_dipendente": {
-                "anno2018":19030,
-                "anno2019":14342,
-                "anno2020":21300,
-                "anno2021":13190,
-                "anno2022":35000
+            "reddito": 
+            {
+                "reddito_dipendente": 
+                {
+                    "anno2018":2030,
+                    "anno2019":13342,
+                    "anno2020":19300,
+                    "anno2021":3190,
+                    "anno2022":15000
+                },
+                "reddito_altri": ["immobili"],
+                "persone_a_carico":false
+            }
+        },
+        {
+            "codice_contribuente": 705124,
+            "nome": "Giorgio",
+            "cognome": "Neri",
+            "cod_fiscale": "GJVNBJ58RFJV85KFH",
+            "indirizzo": 
+            {
+                "citta": "Firenze",
+                "provincia": "FI",
+                "cap": "2406",
+                "numero": "33",
+                "tipo": "Via",
+                "nome_zona": "Dante"
             },
-            "reddito_altri": ["obbligazioni"],
-            "persone_a_carico":2
-}
-
-},
-"Contribuente7": {
-    "Anagrafica": {
-        "codice": 202230,
-        "Nome": "Marina",
-        "Cognome": "Scarpato",
-        "Cod_Fiscale": "MJDMNE465FNV4IVCF",
-        "indirizzo": {
-            "citta": "Torino",
-            "provincia": "TO",
-            "cap": "10026",
-            "numero": "3",
-            "tipo": "Piazza",
-            "nome_zona": "Cavour"
-        }
-    },
-        "Reddito": {
-            "reddito_dipendente": {
-                "anno2018":22030,
-                "anno2019":32342,
-                "anno2020":19300,
-                "anno2021":43190,
-                "anno2022":25000
+            "reddito": 
+            {
+                "reddito_dipendente": 
+                {
+                    "anno2018":19030,
+                    "anno2019":14342,
+                    "anno2020":21300,
+                    "anno2021":13190,
+                    "anno2022":35000
+                },
+                "reddito_altri": ["obbligazioni"],
+                "persone_a_carico":true
+            }
+        },
+        {
+            "codice_contribuente": 202230,
+            "nome": "Marina",
+            "cognome": "Scarpato",
+            "cod_fiscale": "MJDMNE465FNV4IVCF",
+            "indirizzo": 
+            {
+                "citta": "Torino",
+                "provincia": "TO",
+                "cap": "10026",
+                "numero": "3",
+                "tipo": "Piazza",
+                "nome_zona": "Cavour"
             },
-            "reddito_altri": ["immobili"],
-            "persone_a_carico":2
-}
-
-},
-"Contribuente8": {
-    "Anagrafica": {
-        "codice": 243887,
-        "Nome": "Antonio",
-        "Cognome": "Sodano",
-        "Cod_Fiscale": "ANTSD6IKCVJGK4ODL",
-        "indirizzo": {
-            "citta": "Chieri",
-            "provincia": "TO",
-            "cap": "012003",
-            "numero": "33",
-            "tipo": "Corso",
-            "nome_zona": "Mazzini"
-        }
-    },
-        "Reddito": {
-            "reddito_dipendente": {
-                "anno2018":12030,
-                "anno2019":12342,
-                "anno2020":29300,
-                "anno2021":23190,
-                "anno2022":25000
+            "reddito": 
+            {
+                "reddito_dipendente": {
+                    "anno2018":22030,
+                    "anno2019":32342,
+                    "anno2020":19300,
+                    "anno2021":43190,
+                    "anno2022":25000
+                },
+                "reddito_altri": ["immobili"],
+                "persone_a_carico":false
+            }
+    
+        },
+        {
+            "codice_contribuente": 243887,
+            "nome": "Antonio",
+            "cognome": "Sodano",
+            "cod_fiscale": "ANTSD6IKCVJGK4ODL",
+            "indirizzo": 
+            {
+                "citta": "Chieri",
+                "provincia": "TO",
+                "cap": "012003",
+                "numero": "33",
+                "tipo": "Corso",
+                "nome_zona": "Mazzini"
             },
-            "reddito_altri": ["azioni"],
-            "persone_a_carico":1
-}
-
-},
-"Contribuente9": {
-    "Anagrafica": {
-        "codice": 863943,
-        "Nome": "Giovanna",
-        "Cognome": "Michelini",
-        "Cod_Fiscale": "GGFMMD48FN39495KF",
-        "indirizzo": {
-            "citta": "Roma",
-            "provincia": "RM",
-            "cap": "00142",
-            "numero": "33",
-            "tipo": "Via",
-            "nome_zona": "Angelini"
-        }
-    },
-        "Reddito": {
-            "reddito_dipendente": {
-                "anno2018":32030,
-                "anno2019":32342,
-                "anno2020":29300,
-                "anno2021":43190,
-                "anno2022":15000
+            "reddito": 
+            {
+                "reddito_dipendente": 
+                {
+                    "anno2018":12030,
+                    "anno2019":12342,
+                    "anno2020":29300,
+                    "anno2021":23190,
+                    "anno2022":25000
+                },
+                "reddito_altri": ["azioni"],
+                "persone_a_carico":false
+            }
+        },
+        {
+            "codice_contribuente": 863943,
+            "nome": "Giovanna",
+            "cognome": "Michelini",
+            "cod_fiscale": "GGFMMD48FN39495KF",
+            "indirizzo": 
+            {
+                "citta": "Roma",
+                "provincia": "RM",
+                "cap": "00142",
+                "numero": "33",
+                "tipo": "Via",
+                "nome_zona": "Angelini"
             },
-            "reddito_altri": ["immobili"],
-            "persone_a_carico":1
-}
-
-},
-"Contribuente10": {
-    "Anagrafica": {
-        "codice": 293217,
-        "Nome": "Giulia",
-        "Cognome": "Rossi",
-        "Cod_Fiscale": "GFVMMD18FN3195AF",
-        "indirizzo": {
-            "citta": "Roma",
-            "provincia": "RM",
-            "cap": "00133",
-            "numero": "33",
-            "tipo": "Via",
-            "nome_zona": "Giolitti"
-        }
-    },
-        "Reddito": {
-            "reddito_dipendente": {
-                "anno2018":2030,
-                "anno2019":2342,
-                "anno2020":9300,
-                "anno2021":3190,
-                "anno2022":15000
+            "reddito": 
+            {
+                "reddito_dipendente": 
+                {
+                    "anno2018":32030,
+                    "anno2019":32342,
+                    "anno2020":29300,
+                    "anno2021":43190,
+                    "anno2022":15000
+                },
+                "reddito_altri": ["immobili"],
+                "persone_a_carico":true
+            }
+    
+        },
+        {
+            "codice_contribuente": 293217,
+            "nome": "Giulia",
+            "cognome": "Rossi",
+            "cod_fiscale": "GFVMMD18FN3195AF",
+            "indirizzo": 
+            {
+                "citta": "Roma",
+                "provincia": "RM",
+                "cap": "00133",
+                "numero": "33",
+                "tipo": "Via",
+                "nome_zona": "Giolitti"
             },
-            "reddito_altri": [],
-            "persone_a_carico":0
+            "reddito": 
+            {
+                "reddito_dipendente": 
+                {
+                    "anno2018":2030,
+                    "anno2019":2342,
+                    "anno2020":9300,
+                    "anno2021":3190,
+                    "anno2022":15000
+                },
+                "reddito_altri": [],
+                "persone_a_carico":false
+            }
+        
+        }
+    ]
 }
-
-}
-}
-]
-}
+    
