@@ -23,3 +23,5 @@ Per la creazione del progetto di analisi per la banca Revolut il team Data & Tec
 * `2` Poter analizzare e predire tramite dei modelli di ML quali dei suoi clienti potrebbe voler richiedere del credito. 
 * `3` Poter analizzare e predire il default rate dei clienti che ha già ottenuto il credito. 
 * `4` Predire quali e quando i clienti potrebbero aver necessità di credito per i loro acquisti e fornire i dati al team marketing per migliorare le leads performance
+
+### Indice
