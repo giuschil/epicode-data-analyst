@@ -50,6 +50,6 @@ Per la creazione del progetto di analisi per la banca Revolut il team Data & Tec
 
 | dataset        | formato      | dimensione     | link fonte    | descrizione |
 | ------------- |:-------------:| :-------------:|:-------------|:-------------|
-|dataset_bank.csv| CSV | 10 | https://api.revolut.com/bankdata/| Dataset della banca sui clienti che hanno richiesto un credito e risultato del credit score |
-| dataset_fiscalagency.json | JSON      |   10 | https://api.agenziaentrate.gov.it/portale/ | Dataset dell’agenzia delle entrate sui dieci clienti che hanno richiesto il credito |
-| dataset_transactions.xml |  XML      |    10 | https://api.stripe.com/bank/37475859 | Dataset creato da azienda di credito terza su tutti i pagamenti online e offline effettuati |
+|dataset_bank.csv| CSV | 10 | api.revolut.com/bankdata/| Dataset della banca sui clienti che hanno richiesto un credito e risultato del credit score |
+| dataset_fiscalagency.json | JSON      |   10 | api.agenziaentrate.gov.it/portale/ | Dataset dell’agenzia delle entrate sui dieci clienti che hanno richiesto il credito |
+| dataset_transactions.xml |  XML      |    10 | api.stripe.com/bank/37475859 | Dataset creato da azienda di credito terza su tutti i pagamenti online e offline effettuati |
