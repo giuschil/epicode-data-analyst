@@ -98,3 +98,68 @@ Transazione|Transazione di denaro effettuata dal cliente della suddetta banca|Pa
 Credit Risk Model|Modello per stabilire la concessione del credito o meno |banca,agenzia delle entrate |Banca,Clienti |
 Default Rate |Il default rate indica la probabilità di insolvenza del cliente|Tasso di insolvenza| Banca,Clienti |
 
+
+### XML dataset preview
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Client transactions-->
+<bank_transactions>
+<transaction id= "100001">
+    <purchase category="gasoline">
+        <payment date="2022-09-25">
+            <time>
+                <hours>11</hours>
+                <minute>32</minute>
+                <seconds>00</seconds>
+            </time>
+            <company>Esso</company>
+            <url />
+            <title>Gasoline</title>
+            <price>5345.56</price>
+            <currency>€</currency>
+            <location country="Italy">
+                <city>Napoli</city>
+                <street>Piazza Garibaldi</street>
+            </location>
+        </payment>
+    </purchase>
+</transaction>
+</bank_transaction>
+  
+```
+## JSON dataset preview
+```json
+{
+    "contribuenti": 
+    [
+        {
+            "codice_contribuente": 551551,
+            "nome": "Maria",
+            "cognome": "Rossi",
+            "cod_fiscale": "MRARSS90P29H501U",
+            "indirizzo": 
+            {
+                "citta": "Roma",
+                "provincia": "RM",
+                "cap": "00146",
+                "numero": "33",
+                "tipo": "Piazza",
+                "nome_zona": "Navona"
+            },
+            "reddito": 
+            {
+                "reddito_dipendente": 
+                {
+                    "anno2018":12030,
+                    "anno2019":12342,
+                    "anno2020":29300,
+                    "anno2021":23190,
+                    "anno2022":25000
+                },
+                "reddito_altri": ["terreni","azioni","obbligazioni"],
+                "persone_a_carico":true
+            }
+        }
+      ]
+   }
+```
