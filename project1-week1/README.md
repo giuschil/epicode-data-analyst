@@ -25,3 +25,23 @@ Per la creazione del progetto di analisi per la banca Revolut il team Data & Tec
 * `4` Predire quali e quando i clienti potrebbero aver necessità di credito per i loro acquisti e fornire i dati al team marketing per migliorare le leads performance
 
 ### Indice
+- [ ] Descrizione del caso di studio
+- [ ] Storia
+- [ ] Caso
+- [ ] Analisi e raccolta dei requisiti
+- [ ] Requisiti per la Banca
+- [ ] Requisiti per le Transazioni
+- [ ] Requisiti per i dati dell’Agenzia delle entrate
+- [ ] Team necessario Data & Technology
+- [ ] Strutturazione dei requisiti in gruppi di frasi omogenee
+- [ ] Glossario dei termini
+- [ ] Tipologia di dati
+- [ ] Dati Revolut Bank
+- [ ] Dati transazioni-pagamenti online e offline
+- [ ] Dati Agenzia delle entrate
+- [ ] Implementazione
+- [ ] Supporto alle decisioni aziendali
+- [ ] Storia/Infografica
+- [ ] Analisi Aggiuntive Proposte
+- [ ] Possibili implementazioni future
+
