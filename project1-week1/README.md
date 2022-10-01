@@ -163,3 +163,11 @@ Default Rate |Il default rate indica la probabilità di insolvenza del cliente|T
       ]
    }
 ```
+## CSV dataset preview
+
+```json
+id,fiscal_code,banck_account_number,age,sex,personal_status,job,housing,saving_account,credit_amount,duration,purpose,decision
+1,MRARSS90P29H501U,843721,23,M,single,Insegnante,proprietà,30000,25000,5,car,yes
+2,FHHGMS459TOVK595,539889,61,F,single,Ingegnere,affitto,10000,130000,10,house,no
+3,GHCMET56970FKB95,701740,65,F,single,Libero Professionista,affitto,50000,25000,15,car,no
+```
