@@ -1,0 +1,34 @@
+<!-- Esercizio 1 day 3-->
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<libro>
+    <autore>
+      <nome>Alessandro Manzoni</nome>
+      <indirizzo>via Morone 1 Milano</indirizzo>
+    </autore>
+    <capitolo >Introduzione</capitolo>
+    <capitolo >Capitolo 1</capitolo>
+</libro>
+  
+<!-- 
+<libro>
+    <titolo>I Promessi Sposi</titolo>
+    <autore>
+      <nome>Alessandro Manzoni</nome>
+      <indirizzo>via Morone 1 Milano</indirizzo>
+    </autore>
+    <capitolo >Introduzione</capitolo>
+    <capitolo >Capitolo 1</capitolo>
+</libro>
+-->
+
+
+<!-- aggiunto il titolo come attributo di libro
+<libro titolo="I Promessi Sposi">
+    <autore>
+      <nome>Alessandro Manzoni</nome>
+      <indirizzo>via Morone 1 Milano</indirizzo>
+    </autore>
+    <capitolo >Introduzione</capitolo>
+    <capitolo >Capitolo 1</capitolo>
+</libro>
+-->

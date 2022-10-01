@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Progetta un file XML per un CD musicale. Suggerimento: elemento radice chiamato CD, le informazioni sul contenuto potrebbero
+includere almeno il nome della casa discografica, gli artisti, le canzoni, l'anno di pubblicazione e la categoria musicale
+di appartenenza. Inoltre specifica alcune informazioni sulle tracce musicali (numero, durata, nome, ecc). 
+Progetta prima la struttura ad albero dell'xml e poi individua qualche dato da insirire nel file da 
+salvare con xml. Infince aggiungi qualche attributo come il seguente <CD seriale =B6B41B disc-length ='36:55'>,
+    esegui un test salvando il file in xml e correggi gli errori-->
+
+
+<CD seriale = "B6B41B" disc-length ="36:55">
+    <casa_discografica>Fri Records</casa_discografica>
+    <artista>883</artista>
+    <anno_pubblicazione>1995</anno_pubblicazione>
+    <categoria_musicale>pop</categoria_musicale>
+    <canzone>
+        <numero>1</numero>
+        <durata>
+            <minuti>3</minuti>
+            <secondi>30</secondi>
+        </durata>
+        <nome>Io ci sarò</nome>
+        <parola_chiave>amore</parola_chiave>
+    </canzone>
+    <canzone>
+        <numero>2</numero>
+        <durata>
+            <minuti>3</minuti>
+            <secondi>30</secondi>
+        </durata>
+        <nome>Nord sud ovest est</nome>
+        <parola_chiave>viaggio</parola_chiave>
+    </canzone>
+    <canzone>
+        <numero>3</numero>
+        <durata>
+            <minuti>2</minuti>
+            <secondi>59</secondi>
+        </durata>
+        <nome>Gli Anni</nome>
+        <parola_chiave>amicizia</parola_chiave>
+    </canzone>
+    <canzone>
+        <numero>4</numero>
+        <durata>
+            <minuti>4</minuti>
+            <secondi>30</secondi>
+        </durata>
+        <nome>Come Mai</nome>
+        <parola_chiave>amore</parola_chiave>
+    </canzone>
+
+</CD>
