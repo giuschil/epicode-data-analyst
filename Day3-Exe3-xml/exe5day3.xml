@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Template di una lettera. crea la struttura di una lettera in xml includendo informazioni sul mittente e sul destinatario, 
+la data, il corpo del messaggio e la firma-->
+
+<email>
+    <mittente>studenti@epicode.it</mittente>
+    <destinatario>professore@epicode.it</destinatario>
+    <data>28-09-2022</data>
+    <corpo>Salve professore questo è l'esercizio numero 5</corpo>
+    <firma>Giuseppe e Andrea</firma>
+</email>
+
+
+<email data="">
+    <mittente></mittente>
+    <destinatario></destinatario>
+    <data></data>
+    <corpo></corpo>
+    <firma></firma>
+</email>
+
+
+<email>
+    <mittente></mittente>
+    <destinatario></destinatario>
+    <data>
+        <year>2022</year>
+        <month></month>
+        <day></day>
+        </data>
+    <corpo></corpo>
+    <firma></firma>
+    </email>
