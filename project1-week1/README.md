@@ -1,3 +1,8 @@
+# Project 1 Week 1 
+
+## Raccolta e analisi dei requisiti per un progetto di analisi dati. Analisi, Valutazione del modello di credit scoring di Revolut Bank
+
+
 ## Descrizione del caso di studio
 
 ### Storia
