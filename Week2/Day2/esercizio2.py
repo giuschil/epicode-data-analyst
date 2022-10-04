@@ -8,10 +8,14 @@ visualizza la posizione finale. Esempio, alla prima iterazione se la persona si 
 7 passi la sua nuova posizione sarà (0, -7), se alla successiva si muove verso nord i 3 passi la sua nuova posizione sarà (0, -4)
  """
 
+#importo pacchetto random
 import random
 i=0
 while (i<100):
+    #creo valore x random tra -10 e 10
     x = random.randint(-10, 10)
+    #creo valore y random tra -10 e 10
     y = random.randint(-10, 10)
+    #stampo per ogni ciclo la posizione che ho creato random
     print("(",x,",",y,")")
     i+=1
