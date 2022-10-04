@@ -8,12 +8,15 @@ parola = input("inserisci una parola: ")
 
 #stringa con tutte le vocali
 vocali = 'aeiou'
+new_parola = ''
 
 i = 0
 while i < len(parola):
     #se la lettera non è contenuta in vocali allora è una consonante
     if parola[i] not in vocali:
-        print(parola[i].upper(),end=' ')
+        new_parola = new_parola + parola[i].upper()
     else:
-        print(parola[i].lower(),end=' ')
+        new_parola = new_parola + parola[i].lower()
     i +=1
+
+print(new_parola)
