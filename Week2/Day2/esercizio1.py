@@ -9,7 +9,7 @@ parola = input("inserisci una parola: ")
 #stringa con tutte le vocali
 vocali = 'aeiou'
 
-# i = 0
+i = 0
 while i < len(parola):
     #se la lettera non è contenuta in vocali allora è una consonante
     if parola[i] not in vocali:
