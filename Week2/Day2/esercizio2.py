@@ -11,11 +11,15 @@ visualizza la posizione finale. Esempio, alla prima iterazione se la persona si 
 #importo pacchetto random
 import random
 i=0
+x=0
+y=0
 while (i<100):
     #creo valore x random tra -10 e 10
-    x = random.randint(-10, 10)
+    new_x = x + random.randint(-10, 10)
     #creo valore y random tra -10 e 10
-    y = random.randint(-10, 10)
+    new_y = y + random.randint(-10, 10)
     #stampo per ogni ciclo la posizione che ho creato random
-    i+=1
-print("(",x,",",y,")")
+    i += 1
+
+print("(",new_x,",",new_y,")")
+
