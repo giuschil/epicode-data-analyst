@@ -14,9 +14,7 @@ vocali = 'aeiou'
 while i < len(parola):
     #se la lettera non è contenuta in vocali allora è una consonante
     if parola[i] not in vocali:
-        #new_parola = '' + parola[i].upper() + ' '
         print(parola[i].upper(),end=' ')
     else:
-        #new_parola = ' ' +parola[i].lower() + ' '
         print(parola[i].lower(),end=' ')
     i +=1
