@@ -17,5 +17,5 @@ while (i<100):
     #creo valore y random tra -10 e 10
     y = random.randint(-10, 10)
     #stampo per ogni ciclo la posizione che ho creato random
-    print("(",x,",",y,")")
     i+=1
+print("(",x,",",y,")")
