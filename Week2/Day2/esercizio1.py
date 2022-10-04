@@ -8,7 +8,6 @@ parola = input("inserisci una parola: ")
 
 #stringa con tutte le vocali
 vocali = 'aeiou'
-#new_parola = ''
 
 # i = 0
 while i < len(parola):
