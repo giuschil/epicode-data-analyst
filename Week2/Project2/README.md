@@ -84,3 +84,18 @@ Statistics new cases in Italy
 
 The Max is: 228123, The Min is:  0, The Median is: 10405, The Mean is: 181
 
+
+### Statistische nel continente in Euopre
+
+Statistics new vaccinations cases in Europe 
+
+The Max is: 7210404, The Min is:  0, The Median is: 426243, The Mean is: 1344546
+
+
+## Statistische nel continente North America
+
+
+Statistics new vaccinations cases in USA 
+
+The Max is: 9175533, The Min is:  0, The Median is: 617001, The Mean is: 1073975
+
