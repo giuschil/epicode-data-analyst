@@ -14,7 +14,7 @@
 
 ## Descrizione del caso di analisi Covid 19 Dataset
 
-### Dati
+### Dati presi in considerazione per il confronto tra paesi 
 
 | dataset        | Italy        | UK    |
 | ------------- |:-------------:| :-------------:|
@@ -38,6 +38,16 @@
 | aged65_older | | 
 | diabet | | 
 | inizio vaccinazione | |  |
+
+### Dati scelti per l'analisi
+
+| name_date        | type_date        | Description   |
+| ------------- |:-------------:| :-------------:|
+| Date | timestamp|3 years day by day |
+| new_cases Covid | string| conversion from string to number|
+| new_deths | string| conversion from string to number|
+| new_vaccinations | string| conversion from string to number|
+
 
 
 ## Statistiche
