@@ -30,7 +30,7 @@
 
 | dataset        | Europe        | North America   |
 | ------------- |:-------------:| :-------------:|
-| Popolazione || |
+| Popolazione || 6850540 |
 | density | | |
 | median_age | | |
 | hospitality_bed_100persone | |
