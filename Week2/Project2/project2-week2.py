@@ -54,56 +54,6 @@ print(data_csv_list[2][1])
 
 
 
-
-
-"""
-for col_index in range(len(cols_to_del)):
-    print('col index',col_index)
-    if col_index !=0:
-        cols_to_del[col_index] = cols_to_del[col_index]-1
-    for in range(n):
-        print('data',data[i],'col_index', col_index,'col to del', cols_to_del[col_index])
-        data[i].pop(cols_to_del[col_index])
-        
-"""
-
-"""
-pop = list_of_csv
-# create table to store new data
-pop_exp_dev = []
-
-# add countries to column 0
-for row in range(0, len(pop)):
-    pop_exp_dev.append([])
-    pop_exp_dev[row].append(pop[row][0])
-
-print(pop_exp_dev)
-# add highest/lowest projected population
-for row in range(1, len(pop)):
-    lowest = min(pop[row][1:])
-    lowest_index = pop[row].index(lowest)
-    lowest_year = pop[0][lowest_index]
-
-    highest = max(pop[row][1:])
-    highest_index = pop[row].index(highest)
-    highest_year = pop[0][highest_index]
-
-    pop_exp_dev[row].append(lowest)
-    pop_exp_dev[row].append(lowest_year)
-    pop_exp_dev[row].append(highest)
-    pop_exp_dev[row].append(highest_year)
-
-col_names = ['country', 'lowest_pop', 'lowest_pop_year', 'highest_pop', 'highest_pop_year', 'rel_change_2020-2100']
-pop_exp_dev[0] = col_names
-
-print(pop_exp_dev)
-
-pop['country']
-
-
-"""
-
-
 #headers = data_csv_list[0]
 
 #print(data_csv_list[2][1])
@@ -115,28 +65,6 @@ for i in data_csv_list:
 
 #print(dataset_italia)
 
-
-
-
-new_italia = []
-new_italia.append(headers)
-
-a = data_csv_list[99193]
-
-new_italia = []
-
-
-new_italia =[headers,a,a,a,a]
-#print(new_italia)
-
-
-
-
-#print(prima_riga)
-
-lista = []
-lista = data_csv_list[1]
-lista = []
 
 
 dataset_italy = []
