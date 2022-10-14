@@ -1,8 +1,12 @@
 import mysql.connector
 
+user= 'root'
+password = 'giuschil91'
+host = 'localhost'
+db = 'discografia'
 
 
-def connection(user,password,host,db):
+def connect(user,password,host,db):
     """
     :param user:
     :param password:
@@ -13,6 +17,6 @@ def connection(user,password,host,db):
     conn = mysql.connector.connect(user,password,host,db)
     return conn
 
-conn = connection()
+conn = connect(user,password,host,db)
 cursor = conn.cursor()
 
